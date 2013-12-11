@@ -28,3 +28,24 @@ $$
 
  - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
  - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+
+## Page 3 contains an image
+
+Whats going on
+
+<a href="http://cornify.com">
+    <img width="280" height="326" src="lectures/1/fig/orchid.jpg" alt="Unicorn">
+</a>
+
+
+
+## Page 4 more fragments
+
+Jean <!-- .element: class="fragment" data-fragment-index="2" -->
+<p>
+Pierre  <!-- .element: class="fragment" data-fragment-index="1" -->
+
+ 
+ 
