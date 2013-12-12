@@ -4,6 +4,8 @@
 
 Powered by [reveal](https://github.com/hakimel/reveal.js).
 
+Made possible thanks to... <!--- a long list of students and links to their pages. To come ;) -->
+
 ## Setup
 
 External markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the slides source code.
