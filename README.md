@@ -18,7 +18,7 @@ External markdown and speaker notes, require that presentations run from a local
 $ git clone https://github.com/nakednous/viscomp.git
 ```
 
-5. Navigate to the reveal.js folder
+5. Navigate to the viscomp folder
 ```sh
 $ cd viscomp
 ```
@@ -30,8 +30,10 @@ $ npm install
 
 7. Create a presentation
 ```sh
-$ cp -r lectures/template/ lectures/n # replace *n* with the number of the presentation to be created.
-$ nano lectures/n/index.html #edit line 49 to reflect the number of the presentation *n*
+# replace *n* with the number of the presentation to be created:
+$ cp -r lectures/template/ lectures/n
+#uncomment section block lines 49-55 and edit line 50 to reflect the number of the presentation *n*:
+$ nano lectures/n/index.html
 $ nano lectures/n/source.md #edit the presentation source using markdown
 $ ln -s cp lectures/n/index.html index.html
 ```
