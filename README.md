@@ -32,12 +32,12 @@ $ npm install
 ```sh
 # replace *n* with the number of the presentation to be created:
 $ cp -r lectures/template/ lectures/n
-#uncomment section block lines 49-55 and edit line 50 to reflect the number of the presentation *n*:
+# uncomment section block lines 49-55 and edit line 50 to reflect the number of the presentation *n*:
 $ nano lectures/n/index.html
 $ nano lectures/n/source.md #edit the presentation source using markdown
 $ ln -s cp lectures/n/index.html index.html
 ```
-Note that *lectures/1* followed the aforementioned method.
+Note that `lectures/1` followed the aforementioned method.
 
 8. Serve the presentation and monitor source files for changes
 ```sh
