@@ -1,6 +1,6 @@
 # VisComp
 
-*Visual Computing* slides for the course of the same name given at National University of Colombia.
+*Visual Computing* slides for the course of the same name given at [National University of Colombia](http://www.disi.unal.edu.co/).
 [Jean Pierre Charalambos](http://otrolado.info) and [Andres Colubri](http://codeanticode.wordpress.com/).
 
 Powered by [reveal](https://github.com/hakimel/reveal.js).
