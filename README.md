@@ -4,7 +4,9 @@
 
 Powered by [reveal](https://github.com/hakimel/reveal.js).
 
-Made possible thanks to... <!--- a long list of students and links to their pages. To come ;) -->
+Made possible thanks to... 
+
+<!--- a long list of students and links to their pages. To come ;) -->
 
 ## Setup
 
