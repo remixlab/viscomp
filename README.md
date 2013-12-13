@@ -8,6 +8,29 @@ Made possible thanks to...
 
 <!--- a long list of students and links to their pages. To come ;) -->
 
+## Folder Structure
+
+    |-- css/
+    |-- js/
+    |-- plugin/
+    |-- lib/
+    |-- lectures/
+    |   |-- 1
+    |       |-- fig/
+    |       |-- index.html
+    |       |-- source.md
+    |   |-- ...
+    |       |-- fig/
+    |       |-- index.html
+    |       |-- source.md
+    |   |-- template
+    |       |-- fig/
+    |       |-- index.html
+    |       |-- source.md
+    
+Refer to [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
+
+
 ## Setup
 
 External markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the slides source code.
