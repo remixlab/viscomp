@@ -39,7 +39,7 @@ $ cp -r lectures/template/ lectures/n
 $ nano lectures/n/index.html
 # edit the presentation source using markdown:
 $ nano lectures/n/source.md
-$ ln -s cp lectures/n/index.html index.html
+$ ln -s lectures/n/index.html index.html
 ```
 *Note:* `lectures/1` followed the aforementioned method.
 
