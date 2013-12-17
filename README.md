@@ -28,7 +28,7 @@ Made possible thanks to...
     |       |-- index.html
     |       |-- source.md
     
-Refer to [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
+Refer to the [reveal folder structure](https://github.com/hakimel/reveal.js#folder-structure) for more details, and to the *Setup* below.
 
 
 ## Setup
