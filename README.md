@@ -84,5 +84,5 @@ External markdown and speaker notes, require that presentations run from a local
 
  ```sh
  $ git remote add reveal.js https://github.com/hakimel/reveal.js.git
- git pull reveal.js master
+ $git pull reveal.js master
  ```
