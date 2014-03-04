@@ -39,22 +39,26 @@ External markdown and speaker notes, require that presentations run from a local
 
 2. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
 
-4. Clone the VisComp repository
+3. Clone the VisComp repository
+
 ```sh
 $ git clone https://github.com/nakednous/viscomp.git
 ```
 
-5. Navigate to the viscomp folder
+4. Navigate to the viscomp folder
+
 ```sh
 $ cd viscomp
 ```
 
-6. Install dependencies
+5. Install dependencies
+
 ```sh
 $ npm install
 ```
 
-7. Create a presentation
+6. Create a presentation
+
 ```sh
 # replace *n* with the number of the presentation to be created:
 $ cp -r lectures/template/ lectures/n
@@ -66,11 +70,19 @@ $ ln -s lectures/n/index.html index.html
 ```
 *Note:* `lectures/1` followed the aforementioned method.
 
-8. Serve the presentation and monitor source files for changes
+7. Serve the presentation and monitor source files for changes
+
 ```sh
 $ grunt serve
 ```
 
-9. Open <http://localhost:8000> to view your presentation
+8. Open <http://localhost:8000> to view your presentation
 
 You can change the port by using `grunt serve --port 8001`.
+
+9. Update to upstream
+
+```sh
+$ git remote add reveal.js https://github.com/hakimel/reveal.js.git
+git pull reveal.js master
+```
