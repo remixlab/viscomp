@@ -47,42 +47,42 @@ External markdown and speaker notes, require that presentations run from a local
 
 4. Navigate to the viscomp folder
 
-  ```sh
-  $ cd viscomp
-  ```
+ ```sh
+ $ cd viscomp
+ ```
 
 5. Install dependencies
 
-  ```sh
-  $ npm install
-  ```
+ ```sh
+ $ npm install
+ ```
 
 6. Create a presentation
 
-  ```sh
-  # replace *n* with the number of the presentation to be created:
-  $ cp -r lectures/template/ lectures/n
-  # uncomment lines 49-55 (section block) and edit line 50 to reflect *n* above:
-  $ nano lectures/n/index.html
-  # edit the presentation source using markdown:
-  $ nano lectures/n/source.md
-  $ ln -s lectures/n/index.html index.html
-  ```
-  *Note:* `lectures/1` followed the aforementioned method.
+ ```sh
+ # replace *n* with the number of the presentation to be created:
+ $ cp -r lectures/template/ lectures/n
+ # uncomment lines 49-55 (section block) and edit line 50 to reflect *n* above:
+ $ nano lectures/n/index.html
+ # edit the presentation source using markdown:
+ $ nano lectures/n/source.md
+ $ ln -s lectures/n/index.html index.html
+ ```
+ *Note:* `lectures/1` followed the aforementioned method.
 
 7. Serve the presentation and monitor source files for changes
 
-  ```sh
-  $ grunt serve
-  ```
+ ```sh
+ $ grunt serve
+ ```
 
 8. Open <http://localhost:8000> to view your presentation
 
-You can change the port by using `grunt serve --port 8001`.
+ You can change the port by using `grunt serve --port 8001`.
 
 9. Update to upstream
 
-  ```sh
-  $ git remote add reveal.js https://github.com/hakimel/reveal.js.git
-  git pull reveal.js master
-  ```
+ ```sh
+ $ git remote add reveal.js https://github.com/hakimel/reveal.js.git
+ git pull reveal.js master
+ ```
