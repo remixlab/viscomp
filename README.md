@@ -41,9 +41,9 @@ External markdown and speaker notes, require that presentations run from a local
 
 3. Clone the VisComp repository
 
-```sh
-$ git clone https://github.com/nakednous/viscomp.git
-```
+  ```sh
+  $ git clone https://github.com/nakednous/viscomp.git
+  ```
 
 4. Navigate to the viscomp folder
 
